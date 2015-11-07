@@ -8,21 +8,32 @@
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' />
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' />
 </head>
+
 <body>
-	<div id="container">
+	<div id="container" class="site-container">
 		<header>
-			<h1>Bluth's <span>Original</span> Frozen Banana</h1>
+			<h1 class="visuallyHidden">Bluth's Original Frozen Banana</h1>
 			<img src="img/b1_logo.png" title="" alt="" id="logo" />
 		</header>
 
-		<main>
+		<main class="group">
 			<section id="colors">
-				<h2  class="sameFont">Color Palette</h2>
+				<h2 class="sameFont">Color Palette</h2>
+				<img src="img/colorbox_darkyellow.png" title="" alt="Yellow" class="colorBoxes"/>
+				<img src="img/colorbox_darkblue.png" title="" alt="Dark Blue" class="colorBoxes"/>
+				<img src="img/colorbox_red.png" title="" alt="Red" class="colorBoxes"/>
+				<img src="img/colorbox_lightyellow.png" title="" alt="Light Yellow" class="colorBoxes"/>
+				<img src="img/colorbox_lightblue.png" title="" alt="Light Blue" class="colorBoxes"/>
 			</section>
 
 			<section id="textures">
-				<h2  class="sameFont">Textures</h2>
+				<h2 class="sameFont">Textures</h2>
+				<img src="img/texture1.png" title="" alt="" class="textureBoxes"/>
+				<img src="img/texture2.png" title="" alt="" class="textureBoxes"/>
+				<img src="img/texture3.png" title="" alt="" class="textureBoxes"/>
 			</section>
 
 			<section id="buttons">
@@ -31,7 +42,7 @@
 		</main>
 
 
-		<aside id="sidebar">
+		<aside id="sidebar" class="group">
 			<h2 id="signPainterHouse_Header">This is an Example of a Header</h2>
 			<p class="canterBoldFont">Font: SignPainter House</p>
 
@@ -41,32 +52,33 @@
 			<p id="gsFont">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel feugait nulla facilisi.</p>
 			<p class="canterBoldFont">Font: Gurmukhi Sangam MN</p>
 
+			<h2 id="textLink" class="sameFont"><a href="#">Text Links</a></h2>
+
 			<h2 id="adjectives" class="sameFont">Adjectives</h2>
 			<ul class="canterBoldFont">
-				<li class="adjList">
+				<li class="adjList" id="list1">
 					<ul>
-						<li>1950's</li><li>
+						<li>Retro</li><li>
 						Funky</li><li>
-						Retro</li>
+						1950's</li>
 					</ul>
 				</li>
-				<li class="adjList">
+				<li class="adjList" id="list2">
 					<ul>
-						<li>Clean</li><li>
-						</li>Fresh<li>
-						</li>Light<li>
+						<li>Light</li><li>
+						Fresh</li><li>
+						Clean</li>
 					</ul>
 				</li>
 			</ul>
 
-			<h2 id="textLinks" class="sameFont">Text Links</h2>
-			<ul class="canterBoldFont">
-				<li><span id="visitedTextColor">Visited</span></li><li>
-				<span id="activeTextColor">Active</span></li><li>
-				<span id="hoverTextColor">Hover</span></li><li>
-				<span id="regTextColor">Regular</span></li>
-			</ul>
+			<img src="img/cornerbanana.png" title="" alt="" id="cornerBanana" />
+
 		</aside>
+
+		<footer class="group">
+			<p>Bluth's <span>Original</span> Frozen Banana<p>
+		</footer>
 
 	</div>
 
